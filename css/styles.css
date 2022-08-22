@@ -1,0 +1,174 @@
+@import url("bootstrap.min.css");
+
+body {
+    font-family: "montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: montserrat;
+    font-weight: bold;    
+}
+
+
+/* headings */
+
+.big-heading {
+    font-family: "Montserrat Black",sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* navbar  */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/* title section */
+
+#title{
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.title-image {
+    width: 60%;
+    max-width: 350px;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 21%;
+}
+
+/* download button */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* features */
+
+#features {
+    text-align: center;
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 0 8%;
+}
+
+.feature-icon{
+    color: #ef8172;
+    margin-bottom: 2rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-desc {
+    color: #8f8f8f;
+}
+
+/* testimonial section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding: 3%;
+}
+
+.press-logos {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-text {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.pricing-row {
+    padding-top: 5%;
+}
+
+/* call to action */
+
+
+/* footer */
+.footer-icons {
+    margin: 3%;
+}
+
+
+
+@media (max-width: 1080px) {
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
